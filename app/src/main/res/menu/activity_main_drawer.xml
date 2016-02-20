@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item android:id="@+id/suelio" android:icon="@android:drawable/ic_menu_camera"
+            android:title="Suelio" />
+        <item android:id="@+id/prince" android:icon="@android:drawable/ic_menu_gallery"
+            android:title="Prince" />
+        <item android:id="@+id/fernando" android:icon="@android:drawable/ic_menu_slideshow"
+            android:title="Fernando" />
+        <item android:id="@+id/caio" android:icon="@android:drawable/ic_menu_manage"
+            android:title="Caio" />
+        <item android:id="@+id/jean" android:icon="@android:drawable/ic_menu_manage"
+            android:title="Jean" />
+        <item android:id="@+id/matheus" android:icon="@android:drawable/ic_menu_manage"
+            android:title="Matheus" />
+        <item android:id="@+id/rafael" android:icon="@android:drawable/ic_menu_manage"
+            android:title="Rafael" />
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item android:id="@+id/nav_share" android:icon="@android:drawable/ic_menu_share"
+                android:title="Share" />
+            <item android:id="@+id/nav_send" android:icon="@android:drawable/ic_menu_send"
+                android:title="Send" />
+        </menu>
+    </item>
+
+</menu>
